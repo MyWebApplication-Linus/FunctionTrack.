@@ -3,7 +3,7 @@ const app = express();
 const axios = require("axios");
 const bodyParser = require("body-parser");
 const port = 3000;
-const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wenesday", "Thursday", "Friday", "Saturday"];
+
 let items = ["Buy Food", "Cook Food", "Eat Food" ];
 let workItems = [];
 
@@ -14,20 +14,22 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 app.get("/" , (req, res) =>{
-    let today = new Date();
-    const options = {
-        weekday:"long",
-        day : "numeric",
-        month : "long"
-    }
 
-    let day = today.toLocaleDateString("en-US", options);
+
     res.render("list", {listTittle : day, items : items});
 });
 
 app.post("/", (req, res) => {
-    items.push(req.body.listItems);
-    res.redirect("/");
+
+    if(req.body.list == "Work"){
+        workItems.push(req.body.listItems);
+        res.redirect("/work");
+    }else{
+        items.push(req.body.listItems);
+        res.redirect("/");
+    }
+
+
 });
 
 app.get("/work", (req, res) =>{
@@ -38,7 +40,9 @@ app.post("/work", (req, res) => {
     res.redirect("/work");
 });
 
-
+app.get("/about", (req, res) =>{
+    res.render("about");
+})
 
 app.listen(port,  () =>{
     console.log(`listening at http://localhost:${port}`);
