@@ -44,6 +44,6 @@ app.get("/about", (req, res) =>{
     res.render("about");
 })
 
-app.listen(port,  () =>{
+app.listen(process.env.PORT ||port,  () =>{
     console.log(`listening at http://localhost:${port}`);
 });
