@@ -10,4 +10,5 @@ function getDate(){
     return  today.toLocaleDateString("en-US", options);
 }
 
+module.exports = getDate;
 

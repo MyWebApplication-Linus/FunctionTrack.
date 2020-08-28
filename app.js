@@ -3,6 +3,7 @@ const app = express();
 const axios = require("axios");
 const bodyParser = require("body-parser");
 const port = 3000;
+const dateModule = require(__dirname + "/date.js")
 
 let items = ["Buy Food", "Cook Food", "Eat Food" ];
 let workItems = [];
@@ -15,8 +16,7 @@ app.use(express.static("public"));
 
 app.get("/" , (req, res) =>{
 
-
-    res.render("list", {listTittle : day, items : items});
+    res.render("list", {listTittle : dateModule(), items : items});
 });
 
 app.post("/", (req, res) => {

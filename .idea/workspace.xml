@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d136f13-dac1-4f8f-b59a-4e92a65b3192" name="Default Changelist" comment="" />
+    <list default="true" id="1d136f13-dac1-4f8f-b59a-4e92a65b3192" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/date.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ghjcj66ATk18EoTVQSvp18Xf93" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,11 +56,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598573800153</updated>
-      <workItem from="1598573801361" duration="9590000" />
+      <workItem from="1598573801361" duration="10080000" />
     </task>
+    <task id="LOCAL-00001" summary="Added my own module">
+      <created>1598586063342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598586063342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added my own module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added my own module" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598586033794">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598586033794" />
+    <state x="482" y="130" key="CommitChangelistDialog2" timestamp="1598586063207">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="482" y="130" key="CommitChangelistDialog2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598586063207" />
+    <state x="496" y="276" key="Vcs.Push.Dialog.v2" timestamp="1598586065451">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="496" y="276" key="Vcs.Push.Dialog.v2/1792.23.1288.923/0.23.1792.1026@0.23.1792.1026" timestamp="1598586065451" />
   </component>
 </project>
