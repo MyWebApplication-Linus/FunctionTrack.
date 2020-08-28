@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 app.get("/" , (req, res) =>{
 
-    res.render("list", {listTittle : dateModule(), items : items});
+    res.render("list", {listTittle : dateModule.getDay(), items : items});
 });
 
 app.post("/", (req, res) => {

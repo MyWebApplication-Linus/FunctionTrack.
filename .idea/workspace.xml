@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d136f13-dac1-4f8f-b59a-4e92a65b3192" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/date.js" afterDir="false" />
     </list>
@@ -56,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598573800153</updated>
-      <workItem from="1598573801361" duration="10080000" />
+      <workItem from="1598573801361" duration="10603000" />
     </task>
     <task id="LOCAL-00001" summary="Added my own module">
       <created>1598586063342</created>
